@@ -1,0 +1,133 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# CRITICAL SECURITY FILES - Firebase & API Keys
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+.env
+*.env
+.env.local
+.env.production
+.env.staging
+
+# Android signing files
+android/app/upload-keystore.jks
+android/app/debug-keystore.jks
+android/key.properties
+android/app/key.properties
+
+# iOS signing files
+ios/Runner.xcworkspace/xcshareddata/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Android build files
+android/.gradle/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+android/app/outputs/
+android/build/
+android/.externalNativeBuild/
+android/.cxx/
+
+# iOS build files
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Web build files
+/web/
+
+# Windows build files
+/windows/flutter/generated_plugin_registrant.cc
+/windows/flutter/generated_plugin_registrant.h
+/windows/flutter/generated_plugins.cmake
+
+# MacOS build files
+/macos/Flutter/GeneratedPluginRegistrant.swift
+
+# Linux build files
+/linux/flutter/generated_plugin_registrant.cc
+/linux/flutter/generated_plugin_registrant.h
+
+# Coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# Database files (if any local DBs for testing)
+*.db
+*.sqlite
+*.sqlite3
+
+# Test keys or certificates (if any)
+test_keys/
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Any local configuration or secrets
+secrets.dart
+config/local.dart
